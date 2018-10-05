@@ -15,4 +15,3 @@ will get you this table:
 
 ```csv ./people.csv
 ```
-
