@@ -20,10 +20,11 @@ will get you this table:
 
 ## Standard markdown extensions
 
+- Autoconvert URL-like text to links: https://www.capta.studio/
 - Subscript: H~2~0
 - Superscript: 29^th^
 - Emoji: :D
-- Code block:
+- Code block with syntax highlight:
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
