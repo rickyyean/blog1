@@ -17,3 +17,9 @@ will get you this table:
 
 ```csv ./people.csv
 ```
+
+## Standard markdown extensions
+
+- Subscript: H~2~0
+- Superscript: 29^th^
+- Emoji: :D
