@@ -23,3 +23,9 @@ will get you this table:
 - Subscript: H~2~0
 - Superscript: 29^th^
 - Emoji: :D
+- Code block:
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
