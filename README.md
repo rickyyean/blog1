@@ -1,8 +1,6 @@
 # README
 
-Below we demonstrate some data markdown capabilities.
-
-## Data Markdown (.dmd) format
+Below we demonstrate some data markdown (.dmd) capabilities.
 
 ### Table from inline CSV
 ```{csv}
