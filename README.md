@@ -1,7 +1,6 @@
 # README
 
-This repo is a demonstration of using Capta for documenting data analyses.
-It should have files in formats like md, csv, vgl, sql, svg, png, and jpg.
+Below we demonstrate some data markdown capabilities.
 
 ## Data Markdown (.dmd) format
 
@@ -13,15 +12,7 @@ id,first_name,last_name
 ```
 
 ### Table from a CSV file
-Let's start with a fake [dataset](people.csv) we generated at [Mockaroo](https://www.mockaroo.com/).
-It's easy to show the CSV file in a table. Using this code:
-
-````
-```{csv file=./people.csv}
-```
-````
-
-will get you this table:
+We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https://www.mockaroo.com/).
 
 ```{csv file=./people.csv}
 ```
