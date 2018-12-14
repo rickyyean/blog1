@@ -1,0 +1,15 @@
+{
+  "data": {"url": "./people.csv"},
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "country",
+      "type": "nominal"
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "age",
+      "type": "quantitative"
+    }
+  }
+}
