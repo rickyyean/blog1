@@ -35,6 +35,10 @@ We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https
 }
 ```
 
+### Visualization from Vega-Lite file
+```{vgl file=./country_avg_age.vgl.json}
+```
+
 ## Standard markdown extensions
 
 - Autoconvert URL-like text to links: https://www.capta.studio/
