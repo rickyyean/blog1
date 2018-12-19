@@ -1,6 +1,6 @@
 # README
 
-Below we demonstrate some data markdown (.dmd) capabilities. See https://github.com/capta-studio/blogs1 for all the files used in generating this page, especially `README.md`.
+Below we demonstrate some data markdown (.dmd) capabilities. See https://github.com/capta-studio/blog1 for all the files used in generating this page, especially `README.md`.
 
 ### Table from inline CSV
 ```{csv}
