@@ -2,20 +2,24 @@
 
 Below we demonstrate some data markdown (.dmd) capabilities. See https://github.com/capta-studio/blog1 for all the files used in generating this page, especially `README.md`.
 
-### Table from inline CSV
+## Show CSV as tables
+
+### Inline CSV
 ```{csv}
 id,first_name,last_name
 1,John,Doe
 2,Mary,Jane
 ```
 
-### Table from a CSV file
+### CSV file
 We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https://www.mockaroo.com/).
 
 ```{csv file=./people.csv}
 ```
 
-### Visualization from inline Vega-Lite
+## Data Visualization
+
+### Inline Vega-Lite
 
 ```{vgl}
 {
@@ -37,7 +41,7 @@ We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https
 ```
 
 
-### Visualization from Vega-Lite file
+### Vega-Lite file
 
 ```{vgl file=./country_avg_age.vgl.json}
 ```
