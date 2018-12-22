@@ -3,15 +3,11 @@
 Below we demonstrate some data markdown (.dmd) capabilities. See https://github.com/capta-studio/blog1 for all the files used in generating this page, especially `README.md`.
 
 ### Table from inline CSV
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ```{csv}
 id,first_name,last_name
 1,John,Doe
 2,Mary,Jane
 ```
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Table from a CSV file
 We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https://www.mockaroo.com/).
@@ -20,6 +16,8 @@ We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https
 ```
 
 ### Visualization from inline Vega-Lite
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ```{vgl}
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.0.json",
@@ -39,9 +37,14 @@ We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https
 }
 ```
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ### Visualization from Vega-Lite file
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ```{vgl file=./country_avg_age.vgl.json}
 ```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Standard markdown extensions
 
