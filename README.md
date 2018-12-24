@@ -5,11 +5,12 @@ Below we demonstrate some data markdown (.dmd) capabilities. See https://github.
 ## Show CSV as tables
 
 ### Inline CSV
-```{csv}
+```csv
 id,first_name,last_name
 1,John,Doe
 2,Mary,Jane
 ```
+Note that specifying `{csv}` (with braces) will also work.
 
 ### CSV file
 We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https://www.mockaroo.com/).
