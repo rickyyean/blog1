@@ -1,5 +1,7 @@
 {
   "data": {"url": "./people.csv"},
+  "title": "Average Age",
+  "description": "In this fake dataset, the averge age in Mexico is lower than US and Canada.",
   "mark": "bar",
   "encoding": {
     "x": {
