@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```{vgl}
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.0.json",
-  "description": "A simple bar chart with embedded data.",
+  "caption": "A simple bar chart with embedded data.",
   "data": {
     "values": [
       {"a": "A","b": 28}, {"a": "B","b": 55}, {"a": "C","b": 43},
