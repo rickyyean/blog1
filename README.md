@@ -52,6 +52,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+```{vgl file=./seattle_weather.vgl.json}
+```
+
 ## GraphViz visualization
 You can create graphs using the [Graphviz](http://www.graphviz.org/) language as well. Graphviz (short for Graph Visualization Software) is originally developed by AT&T Labs Research for graph visualization specified in DOT language scripts. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains. Here is an example of a data flow graph.
 
