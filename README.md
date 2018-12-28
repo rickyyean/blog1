@@ -59,8 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## GraphViz visualization
-```{gv}
-digraph G {Hello->World}
+```{gv file=./flowchart.gv title="Test Graph"}
 ```
 You can create graphs using the [Graphviz](http://www.graphviz.org/) language as well. Graphviz (short for Graph Visualization Software) is originally developed by AT&T Labs Research for graph visualization specified in DOT language scripts. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains. Here is an example of a data flow graph.
 
