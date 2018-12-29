@@ -64,11 +64,12 @@ digraph G {Hello->World}
 ```
 You can create graphs using the [Graphviz](http://www.graphviz.org/) language as well. Graphviz (short for Graph Visualization Software) is originally developed by AT&T Labs Research for graph visualization specified in DOT language scripts. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains. Here is an example of a data flow graph.
 
+The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in the SVG format.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.
+
 ![Test Graph](./flowchart.gv)
 
 ```{gv file=./flowchart.gv title="Test Graph"}
 ```
-The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in the SVG format.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.
 
 Official descriptions of the DOT language are [here](https://graphviz.gitlab.io/_pages/doc/info/lang.html) and [here](https://www.graphviz.org/pdf/dotguide.pdf). Wikipedia has a much more user-friendly [explanation](https://en.wikipedia.org/wiki/DOT_(graph_description_language)).
 
