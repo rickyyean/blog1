@@ -68,7 +68,7 @@ The Graphviz layout programs take descriptions of graphs in a simple text langua
 
 ![Test Graph](./flowchart.gv)
 
-```{gv file=./flowchart.gv title="Test Graph"}
+```{gv file=./flowchart.gv title="Test Graph" engine=neato}
 ```
 
 Official descriptions of the DOT language are [here](https://graphviz.gitlab.io/_pages/doc/info/lang.html) and [here](https://www.graphviz.org/pdf/dotguide.pdf). Wikipedia has a much more user-friendly [explanation](https://en.wikipedia.org/wiki/DOT_(graph_description_language)).
