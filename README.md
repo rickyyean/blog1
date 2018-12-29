@@ -66,9 +66,9 @@ You can create graphs using the [Graphviz](http://www.graphviz.org/) language as
 
 The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in the SVG format.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.
 
-![Test Graph](./flowchart.gv?engine=neato)
+![Test Graph](./flowchart.gv)
 
-```{gv file=./flowchart.gv title="Test Graph" engine=neato}
+```{gv file=./flowchart.gv title="Test Graph"}
 ```
 
 Official descriptions of the DOT language are [here](https://graphviz.gitlab.io/_pages/doc/info/lang.html) and [here](https://www.graphviz.org/pdf/dotguide.pdf). Wikipedia has a much more user-friendly [explanation](https://en.wikipedia.org/wiki/DOT_(graph_description_language)).
