@@ -66,7 +66,7 @@ You can create graphs using the [Graphviz](http://www.graphviz.org/) language as
 
 The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in the SVG format.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.
 
-![Test Graph](./flowchart.gv)
+![Test Graph](./flowchart.gv?engine=neato)
 
 ```{gv file=./flowchart.gv title="Test Graph" engine=neato}
 ```
