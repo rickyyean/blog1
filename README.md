@@ -1,6 +1,6 @@
 # README
 
-This repo is a demonstration of Capta.
+This is a demonstration of Capta.
 It can have files in formats like md, csv, vgl, sql, svg, png, and jpg.
 
 ## Capta-flavored Markdown
