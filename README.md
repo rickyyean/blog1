@@ -9,11 +9,11 @@ Let's start with a fake [dataset](people.csv) we generated at [Mockaroo](https:/
 It's easy to show the CSV file in a table. Using this code:
 
 ````
-```csv ./people.csv
+```{csv file=./people.csv}
 ```
 ````
 
 will get you this table:
 
-```csv ./people.csv
+```{csv file=./people.csv}
 ```
