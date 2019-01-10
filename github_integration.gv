@@ -1,10 +1,33 @@
 digraph {
-  subgraph {
+  subgraph github {
+    label = "Github";
     color=lightgrey;
+    style=filled;
     a0 -> a1 -> a2 -> a3;
   }
-  subgraph {
+  subgraph capta {
+    label = "Capta";
     color=lightgrey;
+    style=filled;
     b0 -> b1 -> b2 -> b3;
   }
+  subgraph capta_webhook {
+    label = "Capta Webhook";
+    color=lightgrey;
+    style=filled;
+    c0 -> c1;
+  }
+  subgraph db {
+    label = "Database";
+    color=lightgrey;
+    style=filled;
+    d0 -> d1;
+  }
+  subgraph s3 {
+    label = "S3";
+    color=lightgrey;
+    style=filled;
+    e0 -> e1;
+  }
+
 }
