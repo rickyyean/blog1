@@ -1,10 +1,10 @@
 digraph {
   subgraph github {
-    label = "Github";
-    color=lightgrey;
     style=filled;
+    color=lightgrey;
     node [style=filled,color=white];
     a0 -> a1 -> a2 -> a3;
+    label = "Github";
   }
   subgraph capta {
     label = "Capta";
