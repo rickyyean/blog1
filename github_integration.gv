@@ -35,4 +35,5 @@ digraph {
     e0 -> e1;
   }
 
+  start -> a0;
 }
