@@ -9,25 +9,25 @@ digraph G {
     label = "Capta";
     color=lightgrey; style=filled;
     
-    b0; b1;
+    b0 -> b1;
   }
   subgraph cluster_capta_webhook {
     label = "Capta Webhook";
     color=lightgrey; style=filled;
 
-    c0 -> c1;
+    c0;
   }
   subgraph cluster_db {
     label = "Database";
     color=lightgrey; style=filled;
     
-    d0 -> d1;
+    d0;
   }
   subgraph cluster_s3 {
     label="S3";
     color=lightgrey; style=filled;
     
-    e0 -> e1;
+    e0;
   }
 
   User -> b0 [label="Redirect user"];
@@ -37,7 +37,11 @@ digraph G {
   a0 [label="Specify repos to install Capta"];
   
   a0 -> b1 [label="Redirect user"];
-  b1 [label="User specify routes"];
+  b1 [label="User specify routes"]; /* Clarify */
   
-  a0 -> c0;
+  a0 -> c0; /* Update DB. Sync Repo to S3 */
+  c0 [label="\"Capta installed on Github\""];
+  
+  c0 -> d0;
+  c0 -> e0;
 }
