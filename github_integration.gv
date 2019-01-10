@@ -1,39 +1,37 @@
-digraph {
+digraph G {
   subgraph github {
+    label = "Github";
     style=filled;
     color=lightgrey;
-    node [style=filled,color=white];
     a0 -> a1 -> a2 -> a3;
-    label = "Github";
   }
   subgraph capta {
     label = "Capta";
     color=lightgrey;
     style=filled;
-    node [style=filled,color=white];
     b0 -> b1 -> b2 -> b3;
   }
   subgraph capta_webhook {
     label = "Capta Webhook";
     color=lightgrey;
     style=filled;
-    node [style=filled,color=white];
     c0 -> c1;
   }
   subgraph db {
     label = "Database";
     color=lightgrey;
     style=filled;
-    node [style=filled,color=white];
     d0 -> d1;
   }
   subgraph s3 {
     label="S3";
     color=lightgrey;
     style=filled;
-    node [style=filled,color=white];
     e0 -> e1;
   }
+  
+  b0 [label="No installation. Redirect to Github"];
 
-  start -> a0;
+  start -> b0;
+  b0 -> a0;
 }
