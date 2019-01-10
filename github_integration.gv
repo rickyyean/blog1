@@ -1,29 +1,29 @@
 digraph G {
-  subgraph github {
+  subgraph cluster_github {
     label = "Github";
     style=filled;
     color=lightgrey;
     a0 -> a1 -> a2 -> a3;
   }
-  subgraph capta {
+  subgraph cluster_capta {
     label = "Capta";
     color=lightgrey;
     style=filled;
-    b0 -> b1 -> b2 -> b3;
+    b1 -> b2 -> b3;
   }
-  subgraph capta_webhook {
+  subgraph cluster_capta_webhook {
     label = "Capta Webhook";
     color=lightgrey;
     style=filled;
     c0 -> c1;
   }
-  subgraph db {
+  subgraph cluster_db {
     label = "Database";
     color=lightgrey;
     style=filled;
     d0 -> d1;
   }
-  subgraph s3 {
+  subgraph cluster_s3 {
     label="S3";
     color=lightgrey;
     style=filled;
