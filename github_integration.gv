@@ -3,30 +3,35 @@ digraph {
     label = "Github";
     color=lightgrey;
     style=filled;
+    node [style=filled,color=white];
     a0 -> a1 -> a2 -> a3;
   }
   subgraph capta {
     label = "Capta";
     color=lightgrey;
     style=filled;
+    node [style=filled,color=white];
     b0 -> b1 -> b2 -> b3;
   }
   subgraph capta_webhook {
     label = "Capta Webhook";
     color=lightgrey;
     style=filled;
+    node [style=filled,color=white];
     c0 -> c1;
   }
   subgraph db {
     label = "Database";
     color=lightgrey;
     style=filled;
+    node [style=filled,color=white];
     d0 -> d1;
   }
   subgraph s3 {
-    label = "S3";
+    label="S3";
     color=lightgrey;
     style=filled;
+    node [style=filled,color=white];
     e0 -> e1;
   }
 
