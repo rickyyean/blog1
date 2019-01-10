@@ -3,14 +3,13 @@ digraph G {
     label = "Github";
     style=filled; color=lightgrey;
 
-    a0 -> a1 -> a2 -> a3;
+    a0;
   }
   subgraph cluster_capta {
     label = "Capta";
     color=lightgrey; style=filled;
     
-    b0;
-    b1 -> b2 -> b3;
+    b0; b1;
   }
   subgraph cluster_capta_webhook {
     label = "Capta Webhook";
@@ -31,11 +30,14 @@ digraph G {
     e0 -> e1;
   }
 
-  start -> b0;
-  b0 [label="No installation. Redirect to Github"];
+  User -> b0 [label="Redirect user"];
+  b0 [label="No installation"];
 
   b0 -> a0;
   a0 [label="Specify repos to install Capta"];
   
-  a0 -> c0
+  a0 -> b1 [label="Redirect user"];
+  b1 [label="User specify routes"];
+  
+  a0 -> c0;
 }
