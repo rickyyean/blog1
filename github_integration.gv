@@ -30,6 +30,8 @@ digraph G {
     e0;
   }
 
+  { User; rank=source; }
+  
   User -> b0 [label="Redirect user"];
   b0 [label="No installation"];
 
