@@ -18,6 +18,10 @@ We have a [CSV file](people.csv) that was randomly generated at [Mockaroo](https
 ```{csv file=./people.csv}
 ```
 
+### SQL query
+```{csv file=./employees.sql}
+```
+
 ## Data Visualization
 
 ### Inline Vega-Lite
