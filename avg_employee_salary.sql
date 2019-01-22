@@ -1,7 +1,7 @@
 SELECT
     e.department_id,
     department_name,
-    TO_NUMBER(AVG(salary))
+    AVG(salary)
 FROM
     employees e
 INNER JOIN departments d ON d.department_id = e.department_id
