@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.0.json",
   "caption": "Average employee salary by department",
-  "data": { "url": "./employees.sql" },
+  "data": { "url": "./avg_employee_salary.sql" },
   "mark": "bar",
   "encoding": {
     "x": {"field": "department_id", "type": "ordinal"},
