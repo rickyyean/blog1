@@ -1,7 +1,9 @@
 SELECT
-    department_id,
-    AVG(salary)
+    e.department_id,
+    department_name,
+    TO_NUMBER(AVG(salary))
 FROM
-    employees
+    employees e
+INNER JOIN departments d ON d.department_id = e.department_id
 GROUP BY
-    department_id;
+    e.department_id;
