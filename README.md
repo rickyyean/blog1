@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   "mark": "bar",
   "encoding": {
     "x": {"field": "department_name", "type": "ordinal"},
-    "y": {"field": "salary", "type": "quantitative", "aggregate": "mean"}
+    "y": {"field": "avg", "type": "quantitative", "aggregate": "mean"}
   }
 }
 ```
