@@ -53,8 +53,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   "caption": "Average employee salary by department",
   "data": {
     "url": "./avg_employee_salary.sql",
-    "format: "csv"
-   },
+    "format": "csv"
+  },
   "mark": "bar",
   "encoding": {
     "x": {"field": "department_name", "type": "ordinal"},
